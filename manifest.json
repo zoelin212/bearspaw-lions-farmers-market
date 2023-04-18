@@ -1,0 +1,124 @@
+{
+  "name": "original-bearspaw-farmers-market",
+  "short_name": "original-bearspaw-farmers-market",
+  "description": "Visit Bearspaw Farmers Market for fresh and sustainably grown fruits, vegetables, and other locally sourced products. Discover a community of local farmers and support sustainable agriculture. Shop now!",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "dir": "auto",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "business",
+    "entertainment",
+    "food",
+    "health",
+    "lifestyle",
+    "shopping",
+    "social"
+  ],
+  "shortcuts": [ {
+    "name": "original-bearspaw-farmers-market",
+    "url": "https://original-bearspaw-farmers-market.com/",
+    "description": "Visit Bearspaw Farmers Market for fresh and sustainably grown fruits, vegetables, and other locally sourced products. Discover a community of local farmers and support sustainable agriculture. Shop now!"
+  }],
+  "lang": "en",
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
+  ],"share_target": {
+    "action": "/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+  	  "title": "title",
+  	  "text": "text",
+  	  "url": "url",
+      "files": [
+    		{
+    		  "name": "file",
+    		  "accept": [ "*/*" ]
+    		}
+  	  ]
+    }
+  },
+  "icons": [
+    {
+      "src": "/assets/pwa/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/pwa/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/pwa/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/pwa/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/pwa/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/pwa/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/pwa/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots" : [
+    {
+      "src": "/assets/pwa/screenshots1.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpg",
+      "platform": "wide"
+    },
+    {
+      "src": "/assets/pwa/screenshots2.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpg",
+      "platform": "wide"
+    },
+    {
+      "src": "/assets/pwa/screenshots3.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpg",
+      "platform": "wide"
+    },{
+      "src": "/assets/pwa/screenshots4.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpg",
+      "platform": "wide"
+    },
+    {
+      "src": "/assets/pwa/screenshots5.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpg",
+      "platform": "wide"
+    }
+  ]
+}
